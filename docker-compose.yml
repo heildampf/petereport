@@ -9,8 +9,8 @@ services:
       - ./app/petereport/static:/opt/petereport/app/petereport/static
       - ./app/media:/opt/petereport/app/media
     ports:
-      - 80:80
-      - 443:443
+      - 180:80
+      - 1443:443
     depends_on:
       - petereport
 
