@@ -31,3 +31,8 @@ services:
     expose:
       - 8000
     restart: unless-stopped
+
+networks:
+    default:
+        external:
+            name: proxy_network
